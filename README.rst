@@ -48,6 +48,9 @@ Para excluir un conjunto de directorios --exclude-from '/home/nombre_usuario/fic
 rsync -avPzhe 'ssh -p 1050' --progress --exclude-from '/home/nombre_usuario/fichero' /home/nombre_usuario/www
 ``
 
+``
+ln -s /var/www/OLIF_SYSTEM_V2_0/ /var/www/..../olif
+``
 ---------------
 USERS
 ---------------
