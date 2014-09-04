@@ -58,3 +58,14 @@ Cambiar contraseña
 ``
 sudo passwd [USER]
 ``
+
+---------------
+SAMBA
+---------------
+
+Crear / cambiar password usuario
+==================
+
+``
+sudo smbpasswd -a pepe
+``
