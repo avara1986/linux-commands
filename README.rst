@@ -51,6 +51,21 @@ Enlace simbólico
 
 	ln -s /var/www/OLIF_SYSTEM_V2_0/ /var/www/..../olif
 
+Montar unidades
+===============
+
+Montar unidad remota
+
+::
+
+	sudo mount 192.168.1.8:/nfs/FOLDER /mnt/SHAREDFOLDER
+	
+Montar unidad USB
+
+::
+
+	sudo mount -t ntfs-3g /dev/sdb1 /media/USBFOLDER
+
 ---------------
 USERS
 ---------------
