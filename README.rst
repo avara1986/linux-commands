@@ -85,3 +85,34 @@ Crear / cambiar password usuario
 ::
 
 	sudo smbpasswd -a pepe
+	
+	
+---------------
+GIT
+---------------
+
+Crear Submódulo
+==================
+::
+
+    git submodule add https://github.com/olif-fm/olif-module-search olif/module/search
+
+Sincronizar Submóduloes
+==================
+
+.. sourcecode:: sh
+
+    git submodule init
+    git submodule update
+    git submodule sync
+
+Inicializar un proyecto
+==================
+::
+
+	touch README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/olif-fm/olif.git
+	git push -u origin master
